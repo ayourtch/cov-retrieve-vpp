@@ -77,7 +77,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     eprintln!("going to the new URL");
     let new_url =
-        "https://scan9.coverity.com/api/viewContents/issues/v1/28863?projectId=12999&rowCount=-1";
+        "https://scan9.scan.coverity.com/api/viewContents/issues/v1/28863?projectId=12999&rowCount=-1";
 
     page.goto(new_url).await?;
 
